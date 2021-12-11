@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.header{
+    height: 100vh;
+    background: violet;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: aqua;
+}
+
+.header__list{
+    display: flex;
+    gap: 50px;
+
+}
+
+.header__link{
+    color: black;
+    font-size: 25px;
+}
