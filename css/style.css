@@ -49,3 +49,62 @@
     color: black;
     font-size: 25px;
 }
+.marketing{
+    height: 100px;
+    width: 100%;
+    background: #F1EAFB;
+}
+.marketing__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.marketing__link{
+    color:#9F4A19;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 20px;
+}
+.project{
+    height: 628px;
+    width: 100%;
+    background: #F9F7F3;
+}
+.project__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.project__title{
+    font-family:'Roboto';
+   font-weight:400;
+   font-size: 70px;
+   color: #000000;
+   width: 578px;
+}
+.project__text{
+    font-family:'Roboto';
+    font-weight:400;
+    font-size:16px;
+    line-height: 22px;
+    color: #000000;
+    width: 454px;
+    margin-top: 30px;
+}
+.link{
+  
+}
+.project__btn{
+    width:292px;
+    height:42px;
+    border: 1px solid #000000;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00000080;
+    margin-top: 37px;
+   
+}
